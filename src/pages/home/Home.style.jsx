@@ -1,0 +1,21 @@
+import styled from "styled-components";
+import Flex from "../../styles/Flex";
+
+export const HomeContainer = styled(Flex)`
+    flex-direction: column;
+
+
+`
+export const HomeImage = styled(Flex)`
+    margin:2rem;
+    width:100%;
+    img {
+    width: 45%;
+    max-height: 50vh;
+    border-radius: 1rem;
+    }
+
+`
+export const MainContainer = styled(Flex)`
+    flex-direction: row;
+`
